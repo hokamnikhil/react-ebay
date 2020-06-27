@@ -1,0 +1,18 @@
+$drawerWidth: 240;
+.drawerWraper{
+    display: flex;
+    .drawer{
+        width: $drawerWidth;
+        flex-shrink: 0;
+    }
+    .drawerPaper{
+        width: $drawerWidth;
+    }
+    .drawerHeader{
+        display: flex;
+        align-items: right;
+        padding: 0, 1;
+        // necessary for content to be below app bar
+        justify-content: flex-end;
+    }
+}
